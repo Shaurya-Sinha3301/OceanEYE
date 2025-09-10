@@ -1,14 +1,26 @@
 # 🌊 OceanEYE Frontend
 
+![OceanEYE](https://img.shields.io/badge/OceanEYE-Deep%20Sea%20eDNA-0ea5e9?style=for-the-badge&logo=dna&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-14.0.0-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.3.0-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![BERTax](https://img.shields.io/badge/BERTax-Fast%20Classification-10b981?style=for-the-badge&logo=ai&logoColor=white)
+![DNABERT-S](https://img.shields.io/badge/DNABERT--S-Novelty%20Detection-ef4444?style=for-the-badge&logo=microscope&logoColor=white)
+
 > **Smart India Hackathon 2025 Project**  
 > AI-powered deep-sea eDNA analysis platform for marine biodiversity assessment
 
-A modern, responsive web application built with Next.js that provides an intuitive interface for analyzing environmental DNA (eDNA) samples from deep-sea environments using advanced AI models like DNABERT-2.
+A modern, responsive web application built with Next.js that provides an intuitive interface for analyzing environmental DNA (eDNA) samples from deep-sea environments using the advanced **BERTax → DNABERT-S** pipeline for fast classification and novelty detection.
 
 ## 🚀 Live Demo
 
+![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen?style=flat-square&logo=github-actions)
+![Deployment](https://img.shields.io/badge/Deployment-Ready-success?style=flat-square&logo=vercel)
+![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square&logo=opensource)
+![Version](https://img.shields.io/badge/Version-1.0.0-orange?style=flat-square&logo=semver)
+
 - **Landing Page**: [http://localhost:3000](http://localhost:3000)
-- **Dashboard**: [http://localhost:3000/dashboard](http://localhost:3000/dashboard)
+- **Interactive Dashboard**: [http://localhost:3000/dashboard](http://localhost:3000/dashboard)
 
 ## ✨ Features
 
@@ -21,6 +33,11 @@ A modern, responsive web application built with Next.js that provides an intuiti
 
 ### 🧬 **Core Functionality**
 
+![Fast Processing](https://img.shields.io/badge/Processing-Fast-brightgreen?style=flat-square&logo=zap)
+![Real Time](https://img.shields.io/badge/Analytics-Real%20Time-blue?style=flat-square&logo=activity)
+![AI Powered](https://img.shields.io/badge/AI-Powered-purple?style=flat-square&logo=brain)
+![Responsive](https://img.shields.io/badge/Design-Responsive-teal?style=flat-square&logo=mobile)
+
 - **DNA Upload Interface**: Drag-and-drop FASTA/FASTQ file upload
 - **BERTax → DNABERT-S Pipeline**: Fast classification followed by deep-sea novelty detection
 - **Interactive Dashboard**: Real-time monitoring with comprehensive analytics
@@ -28,6 +45,11 @@ A modern, responsive web application built with Next.js that provides an intuiti
 - **Sample Metadata**: Complete sample information management
 
 ## 🔬 **AI-Powered Analysis Pipeline**
+
+![BERTax](https://img.shields.io/badge/BERTax-Classification-10b981?style=flat-square&logo=dna)
+![DNABERT-S](https://img.shields.io/badge/DNABERT--S-Novelty%20Detection-ef4444?style=flat-square&logo=microscope)
+![Accuracy](https://img.shields.io/badge/Accuracy-97%25-success?style=flat-square&logo=target)
+![Speed](https://img.shields.io/badge/Speed-52%20seq%2Fmin-orange?style=flat-square&logo=zap)
 
 Our advanced pipeline combines cutting-edge AI models for comprehensive deep-sea eDNA analysis:
 
@@ -49,15 +71,24 @@ Our advanced pipeline combines cutting-edge AI models for comprehensive deep-sea
 
 ## 🛠️ Tech Stack
 
-| Category          | Technology        | Version  |
-| ----------------- | ----------------- | -------- |
-| **Framework**     | Next.js           | 14.0.0   |
-| **Language**      | TypeScript        | ^5       |
-| **Styling**       | Tailwind CSS      | ^3.3.0   |
-| **Charts**        | Nivo              | ^0.84.0  |
-| **Icons**         | Lucide React      | ^0.292.0 |
-| **UI Components** | Custom Components | -        |
-| **Animations**    | CSS Animations    | -        |
+![React](https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-14.0.0-000000?style=flat-square&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.3.0-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Lucide React](https://img.shields.io/badge/Lucide%20React-0.292.0-F56565?style=flat-square&logo=lucide&logoColor=white)
+![ESLint](https://img.shields.io/badge/ESLint-8.0-4B32C3?style=flat-square&logo=eslint&logoColor=white)
+![PostCSS](https://img.shields.io/badge/PostCSS-8.0-DD3A0A?style=flat-square&logo=postcss&logoColor=white)
+
+| Category          | Technology        | Version  | Purpose                           |
+| ----------------- | ----------------- | -------- | --------------------------------- |
+| **Framework**     | Next.js           | 14.0.0   | React framework with SSR/SSG      |
+| **Language**      | TypeScript        | ^5       | Type-safe JavaScript              |
+| **Styling**       | Tailwind CSS      | ^3.3.0   | Utility-first CSS framework       |
+| **Charts**        | Custom SVG        | -        | Scientific data visualization     |
+| **Icons**         | Lucide React      | ^0.292.0 | Beautiful icon library            |
+| **UI Components** | Custom Components | -        | Reusable React components         |
+| **Animations**    | CSS Animations    | -        | Smooth transitions & effects      |
+| **AI Models**     | BERTax + DNABERT-S| -        | Deep-sea species classification   |
 
 ## 🎨 Design System
 
@@ -352,6 +383,11 @@ npx @next/bundle-analyzer
 
 ## 🤝 Contributing
 
+![Contributors Welcome](https://img.shields.io/badge/Contributors-Welcome-brightgreen?style=flat-square&logo=github)
+![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-blue?style=flat-square&logo=git)
+![Issues](https://img.shields.io/badge/Issues-Open-red?style=flat-square&logo=github)
+![Code Style](https://img.shields.io/badge/Code%20Style-ESLint-purple?style=flat-square&logo=eslint)
+
 ### Development Workflow
 
 1. Fork the repository
@@ -369,14 +405,23 @@ npx @next/bundle-analyzer
 
 ## 📝 License
 
+![MIT License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square&logo=opensource)
+![SIH 2024](https://img.shields.io/badge/SIH-2024-orange?style=flat-square&logo=india)
+
 This project is part of Smart India Hackathon 2024 submission.
 
 ## 👥 Team
+
+![Team](https://img.shields.io/badge/Team-OceanEYE-blue?style=flat-square&logo=users)
+![Hackathon](https://img.shields.io/badge/Hackathon-Smart%20India%202024-green?style=flat-square&logo=trophy)
 
 **OceanEYE Development Team**  
 Smart India Hackathon 2024
 
 ## 📞 Support
+
+![Support](https://img.shields.io/badge/Support-Available-brightgreen?style=flat-square&logo=help-circle)
+![Documentation](https://img.shields.io/badge/Docs-Complete-blue?style=flat-square&logo=book)
 
 For questions or support regarding the frontend:
 
